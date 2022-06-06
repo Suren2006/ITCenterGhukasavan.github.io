@@ -1,0 +1,219 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body, .offcanvas.show:not(.hiding) {
+	background-image: linear-gradient(to right, #222831, #565b62);
+}
+
+
+.theme-switch {
+	background-color: yellow;
+    background-image: url(../img/lovepik-sun-png-image_401466511_wh1200-removebg-preview.png) !important;
+}
+
+
+.theme-switch:checked {
+	background-color: #123456;
+    background-image: url(../img/download-removebg-preview.png) !important;
+}
+
+.logo {
+	max-width: 300px;
+	width: 100%;
+}
+
+.navbar-ul a, h2, h5, h1, .teachers {
+	color: #19b7ae;
+}
+
+h3, h4 {
+	color: white;
+}
+
+.navbar-ul a:hover {
+	color: white;
+}
+
+.dropdown-item:hover {
+	background-color: transparent !important;
+	color: white !important;
+}
+
+nav, .homediv, .aboutcreation-div, .english, .programming, .english-main, .visits-main, .meetings-main, .footer>div {
+	max-width: 1500px;
+	width: 100%;
+}
+
+.homediv-name {
+	width: 45%;
+	text-shadow: 2px 2px 5px black;
+	animation-name: homediv;
+	animation-duration: 2s;
+}
+
+@keyframes homediv {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+.homediv-name>p {
+	color: white;
+	font-size: 22px;
+}
+
+
+.homediv-image {
+	width: 45%;
+}
+
+.aboutcreation-div {
+	box-shadow: -1px 4px 20px 0px black;
+	font-size: 1rem;
+	margin: 50px auto;
+	color: #19b7ae;
+}
+
+.aboutproject {
+	width: 70%;
+}
+
+.theproject {
+	width: 80%;
+}
+
+.aboutopening {
+	font-size: large;
+}
+
+.aboutopening>div {
+	max-width: 300px;
+	width: 100%;
+	margin: 0 80px;
+}
+
+.img {
+	position: relative;
+	max-width: 0;
+	width: 0;
+	transition: 2s ease-in;
+}
+
+.img.active {
+	box-shadow: 0 6px 20px black;
+	max-width: 300px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.img-1 {
+	max-width: 320px;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.img-1 img {
+	max-width: 300px;
+}
+
+.img-1 img:hover {
+	max-width: 320px;
+	transition: 2s ease;
+}
+
+.img-1:hover {
+	margin-bottom: 0;
+}
+
+iframe {
+	max-width: 700px;
+}
+
+#english img, #programming img {
+	box-shadow: 2px 2px 20px black;
+}
+
+.english-main {
+	z-index: 1;
+}
+
+.english-img {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+footer p {
+	color: #19b7ae;
+	text-shadow: 2px 2px 5px black;
+}
+
+.footer>div {
+	font-size: 20px;
+}
+
+#contacts {
+	display: block;
+}
+
+.contact {
+	width: 75px;
+	position: fixed;
+	right: 0;
+	top: 300px;
+	z-index: 10;
+}
+
+.facebook-logo {
+	max-width: 100px;
+}
+
+.up {
+	display: none;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	font-size: 3.5rem;
+	color: black;
+	opacity: 0.5;
+	z-index: 1000;
+}
+
+.up:hover {
+	text-decoration: none;
+	color: black;
+	opacity: 1;
+}
+
+.up.active {
+	display: block;
+}
+
+
+/* visits */
+
+.visits-main {
+	z-index: 1;
+}
+
+.visits-img {
+	max-width: 500px;
+}
+
+/* dark theme */
+
+.light-gradient {
+	background-image: linear-gradient(to right, #ffffff, #e2eafe);
+}
+
+.light-color a, .light-color p, .light-color h3, .light-color h4 {
+	color: black;
+	text-shadow: none;
+}
+
+.light-color a:hover {
+	color: #19b7ae;
+}
+
+.light-shadow {
+	text-shadow: none;
+}
